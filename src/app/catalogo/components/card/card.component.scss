@@ -1,0 +1,22 @@
+mat-card {
+    margin-bottom: 20px;
+
+    a {
+        color: #1D1D1D;
+        text-decoration: none !important;
+        text-align: center;
+    }
+
+    .card-image {
+        transform: scale(1);
+        transition: 0.5s;
+    }
+    .card-image:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .mat-card-content {
+        margin-bottom: 0;
+    }
+}
