@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { FormPagoComponent } from './components/form-pago/form-pago.component';
+import { PagoComponent } from './components/pago/pago.component';
 
 const routes: Routes = [
-  { path: '', component: FormPagoComponent },
+  { path: '', component: PagoComponent },
 ];
 
 @NgModule({

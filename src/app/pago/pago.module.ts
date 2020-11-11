@@ -5,11 +5,15 @@ import { PagoRoutingModule } from './pago-routing.module';
 import { MaterialModule } from '@material/material.module';
 
 import { FormPagoComponent } from './components/form-pago/form-pago.component';
+import { PagoComponent } from './components/pago/pago.component';
+import { PagoTotalComponent } from './components/pago-total/pago-total.component';
 
 
 @NgModule({
   declarations: [
-    FormPagoComponent
+    FormPagoComponent,
+    PagoComponent,
+    PagoTotalComponent
   ],
   imports: [
     CommonModule,
