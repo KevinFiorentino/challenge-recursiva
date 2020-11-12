@@ -5,6 +5,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { MatCardModule } from '@angular/material/card';
     FlexLayoutModule,
     MatButtonModule,
     MatCardModule,
+    MatDialogModule
   ]
 })
 export class MaterialModule { }
