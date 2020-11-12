@@ -1,0 +1,17 @@
+:host {
+    margin: 3vw 0 3vw 0;
+}
+::ng-deep {
+    .mat-card-header-text {
+        margin: 0 !important;
+    }
+    mat-form-field {
+        width: 100%;
+    }
+}
+form {
+    margin-top: 25px !important;
+}
+.responsive {
+    margin-top: 15px;
+}

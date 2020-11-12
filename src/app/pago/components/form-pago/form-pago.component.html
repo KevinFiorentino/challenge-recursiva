@@ -1,3 +1,33 @@
 <mat-card>
-
+    <h1>Formas de pago</h1>
+    <mat-card-header>
+        <div fxFlex="100" fxLayout="row wrap" fxLayoutAlign="space-around center">
+            <img class="responsive banner-logo" src="../../../../assets/images/tarjetas.png">
+            <img class="responsive banner-logo" src="../../../../assets/images/tarjetas2.png">
+        </div>
+    </mat-card-header>
+    <mat-card-content>
+        <form fxFlex="100" fxLayout="column wrap" fxLayoutAlign="space-around start">
+            <h1>Datos de la tarjeta</h1>
+            <mat-form-field class="example-full-width">
+                <mat-label>Nombre titular de la tarjeta</mat-label>
+                <input matInput placeholder="Juan perez" type="text" value="">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Número de la tarjeta</mat-label>
+                <input matInput placeholder="1234 5678 9101 1121" type="number" value="">
+            </mat-form-field>
+            <mat-form-field color="accent" appearance="fill">
+                <mat-label>Fecha de vencimiento</mat-label>
+                <input matInput [matDatepicker]="picker1">
+                <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                <mat-datepicker #picker1></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Código de seguridad</mat-label>
+                <input matInput placeholder="123" type="number" value="">
+            </mat-form-field>
+            <a routerLink="/home" class="next-button" mat-raised-button>Pagar</a>
+        </form> 
+    </mat-card-content>
 </mat-card>
