@@ -11,12 +11,36 @@ export class HttpService {
   public getCatalogo(): Producto[] {
     return [
       {
-        title: 'Titulo',
-        image: '../../../../assets/images/cucuruchos.png'
+        title: 'Bebidas',
+        image: '../../../../assets/images/bebidas.png'
       },
       {
-        title: 'Titulo2',
-        image: '../../../../assets/images/cucuruchos.png'
+        title: 'Cafetería',
+        image: '../../../../assets/images/cafeteria.png'
+      },
+      {
+        title: 'Chocolate',
+        image: '../../../../assets/images/chocolate.png'
+      },
+      {
+        title: 'Copadulce',
+        image: '../../../../assets/images/copadulce.png'
+      },
+      {
+        title: 'Especialidades',
+        image: '../../../../assets/images/especialidades.png'
+      },
+      {
+        title: 'Promos',
+        image: '../../../../assets/images/promociones.png'
+      },
+      {
+        title: 'Helados',
+        image: '../../../../assets/images/tresgustos.png'
+      },
+      {
+        title: 'Copahelada',
+        image: '../../../../assets/images/copahelada.png'
       }
     ];
   }
@@ -24,12 +48,20 @@ export class HttpService {
   public getProductos(): Producto[] {
     return [
       {
-        title: 'Titulo',
+        title: 'Simple',
+        image: '../../../../assets/images/simple.png'
+      },
+      {
+        title: 'Cucuruchos',
         image: '../../../../assets/images/cucuruchos.png'
       },
       {
-        title: 'Titulo2',
-        image: '../../../../assets/images/cucuruchos.png'
+        title: 'Especial',
+        image: '../../../../assets/images/especial.png'
+      },
+      {
+        title: 'Especialidades',
+        image: '../../../../assets/images/especialidades.png'
       }
     ];
   }

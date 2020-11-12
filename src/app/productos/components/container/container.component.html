@@ -2,8 +2,9 @@
     <div fxFlex="100%" fxLayout="column" fxLayoutAlign="center stretch">
 
         <div class="banners">
-            <img class="responsive banner-main" src="../../../../assets/images/banner2.png">
             <img class="responsive banner-logo" src="../../../../assets/images/logo.png">
+            <img class="responsive banner-main" src="../../../../assets/images/banner2.png">
+            <img class="responsive banner-main" src="../../../../assets/images/barra.png">
         </div>
         
     </div>
@@ -17,34 +18,9 @@
 
         <div fxFlex="auto" fxLayout="row wrap" fxLayoutAlign="space-between stretch">
 
-            <app-card 
-                fxFlex="auto" 
-                fxLayout="row"
-                fxFlex="48"
-                fxFlex.gt-md="24" 
-                fxFlex.gt-sm="48" 
-                fxFlex.gt-xs="48"
-            ></app-card>
-
-            <app-card 
-                fxFlex="auto" 
-                fxLayout="row"
-                fxFlex="48"
-                fxFlex.gt-md="24" 
-                fxFlex.gt-sm="48" 
-                fxFlex.gt-xs="48"
-            ></app-card>
-
-            <app-card 
-                fxFlex="auto" 
-                fxLayout="row"
-                fxFlex="48"
-                fxFlex.gt-md="24" 
-                fxFlex.gt-sm="48" 
-                fxFlex.gt-xs="48"
-            ></app-card>
-
-            <app-card 
+            <app-card
+                *ngFor="let producto of productos"
+                [producto]="producto"
                 fxFlex="auto" 
                 fxLayout="row"
                 fxFlex="48"
