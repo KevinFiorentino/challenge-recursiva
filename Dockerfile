@@ -10,3 +10,5 @@ RUN npm run build -- --prod
 FROM nginx:alpine
 
 COPY --from=node /app/dist/challenge-recursiva /usr/share/nginx/html
+
+CMD ["docker-compose", "up", "-d"]
