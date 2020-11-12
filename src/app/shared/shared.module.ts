@@ -15,6 +15,7 @@ import { CardComponent } from './components/card/card.component';
   ],
   exports: [
     CardComponent
-  ]
+  ],
+  providers: []
 })
 export class SharedModule { }

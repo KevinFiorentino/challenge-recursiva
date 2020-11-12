@@ -18,33 +18,8 @@
         <div fxFlex="auto" fxLayout="row wrap" fxLayoutAlign="space-between stretch">
 
             <app-card 
-                fxFlex="auto" 
-                fxLayout="row"
-                fxFlex="48"
-                fxFlex.gt-md="24" 
-                fxFlex.gt-sm="48" 
-                fxFlex.gt-xs="48"
-            ></app-card>
-
-            <app-card 
-                fxFlex="auto" 
-                fxLayout="row"
-                fxFlex="48"
-                fxFlex.gt-md="24" 
-                fxFlex.gt-sm="48" 
-                fxFlex.gt-xs="48"
-            ></app-card>
-
-            <app-card 
-                fxFlex="auto" 
-                fxLayout="row"
-                fxFlex="48"
-                fxFlex.gt-md="24" 
-                fxFlex.gt-sm="48" 
-                fxFlex.gt-xs="48"
-            ></app-card>
-
-            <app-card 
+                *ngFor="let producto of catalogo"
+                [producto]="producto"
                 fxFlex="auto" 
                 fxLayout="row"
                 fxFlex="48"

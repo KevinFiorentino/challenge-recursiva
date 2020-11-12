@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Producto } from '@shared/models/producto.model';
+import { HttpService } from '@shared/services/http/http.service';
 
 @Component({
   selector: 'app-container',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContainerComponent implements OnInit {
 
-  constructor() { }
+  public catalogo: Producto[];
+
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
+    this.catalogo = this.httpService.getCatalogo();
   }
 
 }
