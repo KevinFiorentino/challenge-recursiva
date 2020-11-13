@@ -1,4 +1,6 @@
-# Angular + Docker + NGINX + Heroku
+# ChallengeRecursiva
+
+## Angular + Docker + NGINX + Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
@@ -21,8 +23,8 @@
 
 #### PUSH DOCKER HUB
 
-- `docker tag challenge-recursiva kfiorentino/challenge-recursiva:v0.0.1`
-- `docker push kfiorentino/challenge-recursiva:v0.0.1`
+- `docker tag challenge-recursiva {USER_NAME}/challenge-recursiva:v0.0.1`
+- `docker push {USER_NAME}/challenge-recursiva:v0.0.1`
 
 #### DEPLOY TO HEROKU CLI
 

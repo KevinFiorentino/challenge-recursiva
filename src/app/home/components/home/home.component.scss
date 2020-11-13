@@ -1,9 +1,21 @@
+.banner-home {
+    transform: scaleX(1);
+}
+@media (max-width: 992px) {
+    .banner-home {
+        transform: scaleX(1.5);
+    }
+}
+@media (max-width: 600px) {
+    .banner-home {
+        transform: scaleX(2);
+    }
+}
 .button-inicio {
     font-size: 20px;
     width: 300px;
     color: white;
     background-color: crimson;
-    position: absolute;
+    position: fixed;
     bottom: 15px;
-    left: 40%;
 }

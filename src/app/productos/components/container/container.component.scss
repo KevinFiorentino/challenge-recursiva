@@ -1,7 +1,9 @@
 .banner-logo {
-    position: absolute;
-    top: 20px;
-    left: 15px;
+    margin: 10px;
+    transform: scale(0.9);
+}
+.banner-main {
+    width: 100%;
 }
 .catalogo-title {
     margin: 20px 0;
@@ -12,4 +14,5 @@
 }
 .banners {
     background-color: #ff9d00;
+    background-image: url("../../../../assets/images/banner2.png");
 }
