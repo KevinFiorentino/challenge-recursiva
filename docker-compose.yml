@@ -1,7 +1,0 @@
-version: '2'
-services:
-  challenge-recursiva:
-    build: .
-    image: challenge-recursiva
-    ports:
-      - '80:80'

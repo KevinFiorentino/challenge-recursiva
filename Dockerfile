@@ -2,7 +2,7 @@ FROM node:12 as node
 
 WORKDIR /app
 
-COPY ./ /app
+COPY ./ /app/
 
 RUN npm install
 RUN npm run build -- --prod
