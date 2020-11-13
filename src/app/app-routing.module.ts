@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 
+
 const routes: Routes = [
   {
     path: 'home',
@@ -19,10 +20,18 @@ const routes: Routes = [
     loadChildren: () => import('./pago/pago.module').then(m => m.PagoModule)
   },
   {
+    path: '404',
+    loadChildren: () => import('./page-not-found/page-not-found.module').then(m => m.PageNotFoundModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: '**',
+    redirectTo: '404'
+  }
 ];
 
 @NgModule({
