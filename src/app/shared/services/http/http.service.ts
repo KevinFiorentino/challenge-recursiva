@@ -12,35 +12,35 @@ export class HttpService {
     return [
       {
         title: 'Bebidas',
-        image: '../../../../assets/images/bebidas.png'
+        image: 'assets/images/bebidas.png'
       },
       {
         title: 'Cafetería',
-        image: '../../../../assets/images/cafeteria.png'
+        image: 'assets/images/cafeteria.png'
       },
       {
         title: 'Chocolate',
-        image: '../../../../assets/images/chocolate.png'
+        image: 'assets/images/chocolate.png'
       },
       {
         title: 'Copadulce',
-        image: '../../../../assets/images/copadulce.png'
+        image: 'assets/images/copadulce.png'
       },
       {
         title: 'Especialidades',
-        image: '../../../../assets/images/especialidades.png'
+        image: 'assets/images/especialidades.png'
       },
       {
         title: 'Promos',
-        image: '../../../../assets/images/promociones.png'
+        image: 'assets/images/promociones.png'
       },
       {
         title: 'Helados',
-        image: '../../../../assets/images/tresgustos.png'
+        image: 'assets/images/tresgustos.png'
       },
       {
         title: 'Copahelada',
-        image: '../../../../assets/images/copahelada.png'
+        image: 'assets/images/copahelada.png'
       }
     ];
   }
@@ -49,19 +49,19 @@ export class HttpService {
     return [
       {
         title: 'Simple',
-        image: '../../../../assets/images/simple.png'
+        image: 'assets/images/simple.png'
       },
       {
         title: 'Cucuruchos',
-        image: '../../../../assets/images/cucuruchos.png'
+        image: 'assets/images/cucuruchos.png'
       },
       {
         title: 'Especial',
-        image: '../../../../assets/images/especial.png'
+        image: 'assets/images/especial.png'
       },
       {
         title: 'Especialidades',
-        image: '../../../../assets/images/especialidades.png'
+        image: 'assets/images/especialidades.png'
       }
     ];
   }
