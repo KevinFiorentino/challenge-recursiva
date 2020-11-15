@@ -1,6 +1,6 @@
 {
     "name": "challenge-recursiva",
-    "description": "Prueba técnica laboral - Recursiva",
+    "description": "App navegación con Angular",
     "repository": "https://github.com/KevinFiorentino/challenge-recursiva",
     "keywords": ["heroku", "angular", "docker", "nginx"],
     "stack": "container"
